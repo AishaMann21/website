@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Aisha Mann</title>
+    <meta name="description" content="">
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/screenwidth.css">
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/film.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+
+    <header id="home">
+
+        <a class="go-back-button" href="film.html">Take me back</a>
+
+
+    </header> <!-- Header End -->
+
+    <section id="film">
+        <div class="row section-intro">
+
+            <h2 class="h2">
+                <strong class="bold-text-3">Beauty of </strong>
+                <strong class="bold-text-9">Korea</strong>
+            </h2>
+
+            <div class="projects">
+
+                <div class="summary">
+                    Post-grad trip to Korea, with the singular goal of cafe hopping and documenting the beauty of
+                    nature, architecture, and everyday life in Seoul and Jeju
+                </div>
+
+                <div class="stock">
+                    Nikon Lite 120
+                    <br>
+                    Kodak Gold 400 &
+                    <br> Kodak Color Plus
+                </div>
+
+            </div>
+
+
+
+            <div id="work">
+                <div id="photos2">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125939_4acaa8b759_o.jpg" width="2075"
+                        height="3130" alt="palace2">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585025983_95b42b9117_o.jpg" width="3130"
+                        height="2075" alt="seoul">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585713076_44c3ebcfe6_o.jpg" width="2075"
+                        height="3130" alt="korea">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585249545_8ff28d1536_o.jpg" width="3014"
+                        height="1901" alt="kids">
+
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53583936942_2f8e62910c_o.jpg" width="3130"
+                        height="2075" alt="udo">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125634_7af71a67a6_o.jpg" width="2075"
+                        height="3130" alt="cats">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585250265_38c6d3d44f_o.jpg" width="2075"
+                        height="3130" alt="jeju2">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585025073_2b89b1758e_o.jpg" width="5184"
+                        height="3456" alt="me2">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585124994_a9394ea5da_o.png" width="956" height="1446"
+                        alt="me">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53583936477_451ddf5aaa_o.jpg" width="3130"
+                        height="2075" alt="boat">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125829_a7d23aecf9_o.jpg" width="2075"
+                        height="3130" alt="jeju3">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125494_15423a3f13_o.jpg" width="3130"
+                        height="2075" alt="aaisha">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125349_da568df17a_o.jpg" width="3130"
+                        height="2075" alt="jayon">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585249550_c49159c97a_o.jpg" width="3130"
+                        height="2075" alt="palace-window">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53584802706_ac585061ee_o.jpg" width="2075"
+                        height="3130" alt="flags">
+
+
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53584802771_d6c6b0cc74_o.jpg" width="3130"
+                        height="2075" alt="pond">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53584901432_227a4c0ce4_o.jpg" width="2075"
+                        height="3130" alt="palace">
+                </div>
+            </div>
+
+        </div><!-- /section-intro -->
+
+
+        <script src=" film.js" type="text/javascript"></script>
+
+</body>
+
+</html>

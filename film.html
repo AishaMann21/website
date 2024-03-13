@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Aisha Mann</title>
+    <meta name="description" content="">
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/screenwidth.css">
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/film.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+
+    <header>
+
+        <div id="nav-wrap">
+            <a class=" mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul id="nav" class="nav">
+                <li class="current"><a class="smoothscroll" href="index.html">Home</a></li>
+                <li class=""><a class="smoothscroll" href="projects.html">Projects</a></li>
+                <li class=""><a class="smoothscroll" href="film.html">Film</a></li>
+            </ul> <!-- end #nav -->
+        </div> <!-- end #nav-wrap -->
+
+    </header> <!-- Header End -->
+
+    <section id="film">
+        <div class="row section-intro">
+
+            <h2 class="h2">
+                <strong class="bold-text-3">Film </strong>
+                <strong class="bold-text-9">photos</strong>
+            </h2>
+
+            <div class="projects">
+
+                <div class="summary">
+
+                    I love capturing the world around me with my no-nonsense point-and-shoot camera —simple, reliable,
+                    just like me. Check out some of my work here —>
+
+                </div>
+
+                <div class="stock">
+                    <a class="more" href="filmproject1.html">1. Beauty of Korea</a>
+                    <br>
+                    <a class="more" href="filmproject2.html">2. Home: NYC</a>
+                </div>
+
+            </div>
+
+            <div id="work">
+                <div id="photos">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585713076_44c3ebcfe6_o.jpg" width="2075"
+                        height="3130" alt="korea">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125939_4acaa8b759_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585123874_4bf6c0116e_o.jpg">
+                    <img onclick=" magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125634_7af71a67a6_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585249340_05d2225626_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585249545_8ff28d1536_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585250265_38c6d3d44f_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585249385_c30bb69feb_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585125829_a7d23aecf9_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585025983_95b42b9117_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585124994_a9394ea5da_o.png">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585025073_2b89b1758e_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53583936257_fcfc465aff_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53585248610_a9738b2b58_o.jpg">
+                    <img onclick="magnify($(this).attr('src'))"
+                        src="https://live.staticflickr.com/65535/53584801771_123301b607_o.jpg">
+
+
+
+                </div>
+            </div>
+
+        </div><!-- /section-intro -->
+
+
+        <script src="film.js" type="text/javascript"></script>
+        <script src="js/web.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>

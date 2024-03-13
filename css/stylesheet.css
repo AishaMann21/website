@@ -1,0 +1,177 @@
+/*
+=====================================================================
+*   url: styleshout.com
+*   edited by Aisha Mann
+*   03/29/2022
+=====================================================================
+c. Default Styles
+   1. Basic
+   2. Typography
+   3. Links
+   5. Buttons
+d. Grid
+
+ /*  1. Basic  ------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+ *,
+ *:before,
+ *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ 
+ html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+ }
+ 
+ body {
+    background: #fff;
+    font-family: 'opensans-regular', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    
+ 
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+     -webkit-text-size-adjust: 100%;
+ }
+ 
+ /*  2. Typography
+        Vertical rhythm with leading derived from 6
+ --------------------------------------------------------------------- */
+ 
+ h1, h2, h3, h4, h5, h6 {
+    color: #313131;
+     font-family: 'opensans-bold', sans-serif;
+    font-weight: normal;
+    -webkit-font-variant-ligatures: common-ligatures;
+    -moz-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+ }
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+ h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+ h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+ h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+ h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
+ h5 { font-size: 18px; line-height: 30px; }
+ h6 { font-size: 14px; line-height: 30px; }
+ .subheader { }
+ 
+ p { margin: 0 0 30px 0; }
+ p img { margin: 0; }
+ p.lead {
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    line-height: 1.7;
+    color: #888888;
+ }
+ 
+ /* for 'em' and 'strong' tags, font-size and line-height should be same with
+ the body tag due to rendering problems in some browsers */
+ em { font: 15px/30px 'opensans-italic', sans-serif; }
+ strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
+ small { font-size: 11px; line-height: inherit; }
+ 
+ 
+ 
+
+ /*  3. Links  ------------------------------------------------------- */
+ 
+ a, a:visited {
+    text-decoration: none;
+    outline: 0;
+    color: #11ABB0;
+ 
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+ }
+ a:hover, a:focus { color: #313131; }
+ p a, p a:visited { line-height: inherit; }
+ 
+ 
+ /*  4. List  --------------------------------------------------------- */
+ 
+ ul, ol { margin-bottom: 24px; margin-top: 12px; }
+ ul { list-style: none outside; }
+ ol { list-style: decimal; }
+ ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ ul.square { list-style: square outside; }
+ ul.circle { list-style: circle outside; }
+ ul.disc { list-style: disc outside; }
+ ul ul, ul ol,
+ ol ol, ol ul { margin: 6px 0 6px 30px; }
+ ul ul li, ul ol li,
+ ol ol li, ol ul li { margin-bottom: 6px; }
+ li { line-height: 18px; margin-bottom: 12px; }
+ ul.large li { }
+ li p { }
+ 
+ 
+ /*  6. Buttons  --------------------------------------------------------- */
+ 
+ .button,
+ .button:visited,
+ button {
+    font: 16px/30px 'opensans-bold', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+
+ }
+ 
+  /* d. Grid
+ ---------------------------------------------------------------------
+    gutters
+ /* ------------------------------------------------------------------ */
+ 
+ .row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+ }
+ /* fixed width for IE8 */
+ .ie .row { width: 1000px ; }
+ 
+ .narrow .row { max-width: 980px; }
+ 
+ .row .row { width: auto; max-width: none; margin: 0 -20px; }
+ 
+ /* row clearing */
+ .row:before,
+ .row:after {
+     content: " ";
+     display: table;
+ }
+ .row:after {
+     clear: both;
+ }
+ 
+ .column, .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+ }
+ .column.centered, .columns.centered  {
+     float: none;
+     margin: 0 auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
