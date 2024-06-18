@@ -26,3 +26,11 @@ function unhover2(element) {
     element.setAttribute('src', 'images/PageTunes Logo-03.svg');
 }
 
+function hover3(element) {
+    element.setAttribute('src', 'images/phillytruce.png');
+}
+
+function unhover3(element) {
+    element.setAttribute('src', 'images/pt.png');
+}
+
